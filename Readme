@@ -1,0 +1,7 @@
+Deep Learning for Visual Question Answering
+Objective Construct Neural Network-based models for answering open ended questions about images
+Methodology
+Represented the question using GloVe word embeddings. Encoded the image by taking the activations of VGG-16.
+Proposed several models to tackle the problem consisting of Bag of Words, and deep networks (CNNs & LSTMs)
+The entire network (except the CNN for image features) is trained end to end on MS COCO image dataset
+Conclusion Achieved an accuracy of 54% on the best model. Sequential processing of the question increased the accuracy by 9%
